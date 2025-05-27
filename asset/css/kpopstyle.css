@@ -1,0 +1,70 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    
+    
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    border: solid, rgba(193, 106, 146, 1);
+    background-color:rgba(193, 106, 146, 1);
+    border-radius: 6px;
+    width: 60%;
+    list-style: none;
+    padding: 2%;
+    margin: 0%;
+    
+  
+    
+
+}
+ .navbar a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: block;
+  
+  
+   
+}
+
+#logo {
+ width: 20%;
+
+
+ 
+}
+
+.intro {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    
+
+}
+ .intro-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+ }
+
+
+
+
+
+   
+
+#intro-img {
+    width: 40%;
+    height: auto;
+}
