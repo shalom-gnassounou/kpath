@@ -47,4 +47,47 @@ nav {
     width: 100%;
     margin-top: 2rem;
     
+
+}
+
+
+
+
+#news > h2 {
+    margin-top: 2rem;
+    text-align: center;
+    font-style: italic;
+     font-family: sans-serif;
+}
+
+#news-article {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+.card {
+    
+    margin-top: 2rem;
+    border: solid white;
+    width: 50%;
+    background-color: rgba(193, 106, 146, 1);
+    
+}
+
+
+.card-content {
+    padding-left: 1rem;
+    font-family: sans-serif;
+}
+
+.card > h4 {
+    font-style: italic;
+}
+
+
+#illustration-article {
+    width: 100%;
+    padding: 0;
 }
