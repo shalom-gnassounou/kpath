@@ -1,7 +1,7 @@
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
    
     
     
@@ -10,7 +10,7 @@ nav {
 .navbar {
     display: flex;
     gap: 2rem;
-    justify-content: center;
+    justify-content: space-evenly;
     border: solid, rgba(193, 106, 146, 1);
     background-color:rgba(193, 106, 146, 1);
     border-radius: 6px;
@@ -63,7 +63,8 @@ nav {
 #news-article {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 3rem;
+    margin: 2rem;
 }
 
 
@@ -90,4 +91,24 @@ nav {
 #illustration-article {
     width: 100%;
     padding: 0;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    border-top: solid rgba(193, 106, 146, 1);
+    background-color: rgba(193, 106, 146, 1);
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+footer img {
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 4%;
+ 
 }
