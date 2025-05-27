@@ -1,7 +1,7 @@
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
    
     
     
@@ -40,4 +40,11 @@ nav {
 
 
  
+}
+
+
+#border-img {
+    width: 100%;
+    margin-top: 2rem;
+    
 }
