@@ -9,3 +9,4 @@ for (const timeLineDot of timeLineDots) {
     bsCarousel.to(slideIndex);
   });
 }
+
