@@ -69,7 +69,7 @@ nav {
 
 
 .card {
-    
+   
     margin-top: 2rem;
     border: solid white;
     width: 50%;
@@ -92,6 +92,9 @@ nav {
     width: 100%;
     padding: 0;
 }
+
+
+
 
 #socials {
     display: flex;
