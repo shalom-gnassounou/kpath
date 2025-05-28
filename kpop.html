@@ -13,7 +13,12 @@
      <header>
         <nav>
         <img  id="logo" src="asset/img/logo-kpath.PNG" alt="logo">
-        <ul class="navbar" >
+         <div class="burger" id="burger">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+        </div>
+        <ul class="navbar navburger" id="navburger" >
             <li><a href="index.html">Acceuil</a></li>
             <li><a href="kpop.html">Kpop</a></li>
             <li><a href="#">Contact</a></li>
@@ -30,25 +35,54 @@
     </header>
      <section class="timeline">
         <h4>La kpop à travers le temps</h4>
-        <div class="timeline-content">
+        <div class="timeline-content-horizontal">
             
-           <div class="timeline-dots" data-slide="0"></div> 
+           <div class="timeline-dots-horizontal" data-slide="0"></div> 
            <div class="timeline-item" >1992<br><br> Début </div>
         
-        <div class="timeline-dots" data-slide="1"></div>
+        <div class="timeline-dots-horizontal" data-slide="1"></div>
         <div class="timeline-item" >1996<br><br> First Idol </div>
         
-        <div class="timeline-dots" data-slide="2"></div> 
+        <div class="timeline-dots-horizontal" data-slide="2"></div> 
         <div class="timeline-item" >2009<br><br> Second Gen </div>
         
-        <div class="timeline-dots" data-slide="3"></div> 
+        <div class="timeline-dots-horizontal" data-slide="3"></div> 
         <div class="timeline-item" >2012<br><br> Gagnam Style </div>
         
-        <div class="timeline-dots" data-slide="4"></div> 
+        <div class="timeline-dots-horizontal" data-slide="4"></div> 
         <div class="timeline-item" >2025<br><br> Wordwilde </div>
-        
         </div>
+
+        <div class="timeline-content-vertical">
+            <div class="timeline-dots-vertical" data-slide="0"></div>
+            <div class="timeline-item">
+                <div class="timeline-date">1992</div>
+                <div class="timeline-content">Début</div>
+            </div>
+            <div class="timeline-dots-vertical" data-slide="1"></div>
+            <div class="timeline-item">
+                <div class="timeline-date">1996</div>
+                <div class="timeline-content">First Idol</div>
+            </div>
+            <div class="timeline-dots-vertical" data-slide="2"></div>
+            <div class="timeline-item">
+                <div class="timeline-date">2009</div>
+                <div class="timeline-content">Second Gen</div>
+            </div>
+            <div class="timeline-dots-vertical" data-slide="3"></div>
+            <div class="timeline-item">
+                <div class="timeline-date">2012</div>
+                <div class="timeline-content">Gagnam Style</div>
+            </div>
+            <div class="timeline-dots-vertical" data-slide="4"></div>
+            <div class="timeline-item">
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">Wordwilde</div>
+            </div>
+        </div>
+
      </section>
+     
      <section id="carouselkpop">
      <div id="kpopCarousel" class="carousel slide" data-bs-ride="false">
   <div class="carousel-inner">
