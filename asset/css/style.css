@@ -65,7 +65,9 @@ nav {
  
 }
 
-
+#navburger{
+    top: 6rem;
+}
 #border-img {
     width: 100%;
     margin-top: 2rem;

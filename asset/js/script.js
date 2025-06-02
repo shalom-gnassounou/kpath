@@ -8,7 +8,7 @@ burger.addEventListener("click", () => {
 
 const timeLineDots = document.querySelectorAll(".timeline-dots-horizontal");
 const timeLineVerticalDots = document.querySelectorAll(
-  ".timelene-dots-vertical"
+  ".timeline-dots-vertical"
 );
 const carousel = document.querySelector("#kpopCarousel");
 const bsCarousel =
@@ -25,7 +25,8 @@ for (const timeLineDot of timeLineDots) {
 
 for (const timeLineVerticalDot of timeLineVerticalDots) {
   timeLineVerticalDot.addEventListener("click", () => {
-    const slideIndex = parseInt(timeLineDot.getAttribute("data-slide"));
-    bsVerCarousel.to(slideIndex);
+    const slideVerIndex = parseInt(timeLineVerticalDot.getAttribute("data-slide"));
+    bsVerCarousel.to(slideVerIndex);
+    console.log("clique")
   });
 }
