@@ -1,17 +1,39 @@
-# kpath
+# 🎶 Kpath – Site éducatif sur la K-culture
 
-**kpath** is an interactive website built with HTML, CSS, and JavaScript. The main feature is a timeline that allows users to explore key moments—such as "1992: First Idol"—and view detailed articles about each event. 
-Clicking an item on the timeline automatically scrolls or navigates to the corresponding article.
+Kpath est un site web interactif destiné à faire découvrir la K-pop et la K-culture au fil des générations. Le projet présente une frise chronologique avec un système de navigation dynamique. Il est réalisé en **HTML**, **CSS** et **JavaScript**.
 
-## Features
-
-- Interactive timeline navigation
-- Clickable timeline entries jump to matched articles (e.g., "1992: First Idol")
-- Clean, responsive design using custom CSS
-- Articles organized by significant events
+---
 
 
 
-### Prerequisites
+## ✨ Fonctionnalités
 
-- Any modern web browser (Chrome, Firefox, Edge, Safari, etc.)
+- Navigation par années via un **timeline horizontal et vertical**
+- **Contenu dynamique** avec carousel Bootstrap
+- **Scroll automatique** vers les articles affichés
+- Responsive design (en cours d'amélioration)
+
+---
+
+## 🛠️ Technologies utilisées
+
+- HTML5  
+- CSS3  
+- JavaScript   
+- Bootstrap 5
+
+---
+
+## 🚧 Prochaines améliorations
+
+- Ajout de contenu K-drama et K-food  
+- Accessibilité améliorée
+
+---
+
+## 📬 Contact
+
+Créé par Shalom Gnassounou  
+📧 shalom4g@gmail.com  
+🔗 [Mon profil GitHub](https://github.com/shalom-gnassounou)
+
