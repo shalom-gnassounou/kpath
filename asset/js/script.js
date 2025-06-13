@@ -11,6 +11,7 @@ const timeLineVerticalDots = document.querySelectorAll(
   ".timeline-dots-vertical"
 );
 const carousel = document.querySelector("#kpopCarousel");
+const targetElement = document.getElementById("carouselkpop");
 const bsCarousel =
   bootstrap.Carousel.getInstance(carousel) || new bootstrap.Carousel(carousel);
 const bsVerCarousel =
@@ -20,13 +21,26 @@ for (const timeLineDot of timeLineDots) {
   timeLineDot.addEventListener("click", () => {
     const slideIndex = parseInt(timeLineDot.getAttribute("data-slide"));
     bsCarousel.to(slideIndex);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+    console.log("clique");
   });
+   
 }
 
 for (const timeLineVerticalDot of timeLineVerticalDots) {
   timeLineVerticalDot.addEventListener("click", () => {
-    const slideVerIndex = parseInt(timeLineVerticalDot.getAttribute("data-slide"));
+    const slideVerIndex = parseInt(
+      timeLineVerticalDot.getAttribute("data-slide")
+    );
     bsVerCarousel.to(slideVerIndex);
-    console.log("clique")
+    
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+
+    console.log("clique");
   });
+
 }
