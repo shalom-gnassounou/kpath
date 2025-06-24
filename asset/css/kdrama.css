@@ -1,0 +1,31 @@
+h2 {
+    text-align: center;
+    border-top: solid 3px rgba(193, 106, 146, 1);
+    margin-top: 3rem;
+}
+
+.btnGenres{
+    display: flex;
+    align-items: baseline;
+    margin: 2rem;
+    background-color: rgba(193, 106, 146, 1) ;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-color: white;
+    border-radius: 10px;
+    
+
+   
+    
+}
+
+.desGenres {
+    margin-left: 2rem;
+    font-family: sans-serif;
+}
+
+#tmdb-dramas {
+    margin-top:2rem ;
+}

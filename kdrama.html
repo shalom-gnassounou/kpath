@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/asset/css/style.css">
+    <link rel="stylesheet" href="/asset/css/kpopstyle.css">
+    <link rel="stylesheet" href="asset/css/kdrama.css">
+    <title>K-drama</title>
+</head>
+<body>
+    <header>
+         <nav>
+        <img  id="logo" src="asset/img/logo-kpath.PNG" alt="logo">
+         <div class="burger" id="burger">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+        </div>
+        <ul class=" navburger" id="navburger" >
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="kpop.html">Kpop</a></li>
+            <li><a href="kdrama.html">K-Drama</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+
+
+    </header>
+
+    <section class="intro">
+            <div class="intro-content">
+            <h1>Explore le monde captivant des K-Dramas</h1>
+            <p>Des romances inoubliables, des intrigues haletantes et des émotions à fleur de peau : les K-Dramas ont conquis le cœur de millions de spectateurs à travers le monde. Découvre ici leurs genres phares et les dernières nouveautés.</p>
+</div>
+
+            
+            <img src="asset/img/introkdrama.jpg" alt="image coréen" id="intro-img">
+        </section>
+
+        <section class="genres">
+            <div>
+            <h2 class="genres">Les différents genres</h2>
+            <button class="btnGenres"onclick="fetchGenreDramas(10749)">Romance</button>
+            <p class="desGenres"> Des histoires d'amour inoubliables, touchantes ou pleines de rebondissements !</p>
+            <button class="btnGenres"onclick="fetchGenreDramas(35)">Comédie</button>
+             <p class="desGenres">Des situations drôles, des malentendus hilarants, et des personnages attachant !</p>
+            <button class="btnGenres" onclick="fetchGenreDramas(10765)">Fantastique</button>
+            <p class="desGenres">Un monde entre rêves et légendes, où l'impossible devient réalité !</p>
+           
+        </div>
+             <div id="tmdb-dramas"></div>
+
+        </section>
+
+         
+
+
+    <script src="asset/js/kdrama.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Goblin",
+    "genre": ["Fantastique", "Romance"],
+    "image": "img/goblin.jpg",
+    "description": "Un immortel en quête de repos croise une lycéenne qui dit être sa promise."
+  },
+  {
+    "title": "Crash Landing on You",
+    "genre": ["Romance", "Drame"],
+    "image": "img/crash.jpg",
+    "description": "Une héritière sud-coréenne atterrit en Corée du Nord et tombe amoureuse d'un officier."
+  },
+  {
+    "title": "Kingdom",
+    "genre": ["Historique", "Fantastique", "Action"],
+    "image": "img/kingdom.jpg",
+    "description": "Dans la Corée féodale, un prince enquête sur une épidémie transformant les gens en zombies."
+  },
+  {
+    "title": "Itaewon Class",
+    "genre": ["Drame", "Société"],
+    "image": "img/itaewon.jpg",
+    "description": "Un ancien détenu monte un bar et défie un conglomérat de la restauration."
+  },
+  {
+    "title": "Business Proposal",
+    "genre": ["Romance", "Comédie"],
+    "image": "img/business.jpg",
+    "description": "Elle remplace sa copine à un blind date et tombe sur son patron…"
+  },
+  {
+    "title": "The King: Eternal Monarch",
+    "genre": ["Fantastique", "Romance"],
+    "image": "img/king.jpg",
+    "description": "Un empereur traverse les mondes parallèles pour protéger l'équilibre entre deux réalités."
+  },
+  {
+    "title": "True Beauty",
+    "genre": ["Romance", "École", "Comédie"],
+    "image": "img/truebeauty.jpg",
+    "description": "Une lycéenne devient populaire grâce au maquillage… mais cache son vrai visage."
+  },
+  {
+    "title": "Vincenzo",
+    "genre": ["Action", "Comédie", "Mafia"],
+    "image": "img/vincenzo.jpg",
+    "description": "Un avocat coréen adopté par la mafia italienne revient à Séoul pour se venger."
+  },
+  {
+    "title": "Extraordinary Attorney Woo",
+    "genre": ["Droit", "Société", "Comédie"],
+    "image": "img/woo.jpg",
+    "description": "Woo Young-Woo, jeune avocate autiste, fait face aux préjugés avec brio et humanité."
+  },
+  {
+    "title": "Hotel Del Luna",
+    "genre": ["Fantastique", "Romance", "Horreur"],
+    "image": "img/hotel.jpg",
+    "description": "Une femme immortelle gère un hôtel pour esprits et tente d’expier ses fautes passées."
+  }
+]
