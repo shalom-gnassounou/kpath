@@ -21,7 +21,7 @@ async function fetchGenreDramas(genreId) {
       const card = document.createElement("div");
       card.classList.add("drama-card");
       card.innerHTML = `
-        <img src="${drama.poster_path ? `https://image.tmdb.org/t/p/w300${drama.poster_path}` : 'https://via.placeholder.com/300x450?text=Pas+de+visuel'}" alt="${drama.name}">
+        <img src="${drama.poster_path ? `https://image.tmdb.org/t/p/w300${drama.poster_path}` : 'https://dummyimage.com/300x450/cccccc/000000&text=Pas+de+visuel'}" alt="${drama.name}">
         <h4>${drama.name}</h4>
         <p>${drama.overview || "Pas de description disponible."}</p>
       `;
