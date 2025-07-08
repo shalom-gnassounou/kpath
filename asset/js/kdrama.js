@@ -19,9 +19,9 @@ async function fetchGenreDramas(genreId) {
 
     results.slice(0, 3).forEach((drama) => {
       const card = document.createElement("div");
-      card.classList.add("drama-card");
+      card.classList.add("dramaCard");
       card.innerHTML = `
-        <img src="${drama.poster_path ? `https://image.tmdb.org/t/p/w300${drama.poster_path}` : 'https://via.placeholder.com/300x450?text=Pas+de+visuel'}" alt="${drama.name}">
+        <img src="${drama.poster_path ? `https://image.tmdb.org/t/p/w300${drama.poster_path}` : 'https://dummyimage.com/300x450/cccccc/000000&text=Pas+de+visuel'}" alt="${drama.name}">
         <h4>${drama.name}</h4>
         <p>${drama.overview || "Pas de description disponible."}</p>
       `;
@@ -34,5 +34,5 @@ async function fetchGenreDramas(genreId) {
     container.innerHTML = "<p>Une erreur est survenue. Réessaie plus tard.</p>";
   }
 }
-
+ 
 
