@@ -1,3 +1,19 @@
+const burger = document.getElementById("burger");
+const navBurger = document.getElementById("navburger");
+
+burger.addEventListener("click", () => {
+  navBurger.classList.toggle("show");
+  console.log("clique");
+});
+
+
+
+
+
+
+
+
+
 async function fetchGenreDramas(genreId) {
   const API_KEY = "30b77497cab93e431d0c4e933cbbf16b"; 
   const url = `https://api.themoviedb.org/3/discover/tv?api_key=${API_KEY}&language=fr-FR&with_original_language=ko&with_genres=${genreId}&sort_by=first_air_date.desc&first_air_date.gte=2022-01-01`;
