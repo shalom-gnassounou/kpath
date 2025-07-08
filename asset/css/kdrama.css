@@ -28,4 +28,13 @@ h2 {
 
 #tmdb-dramas {
     margin-top:2rem ;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.dramaCard {
+    border: 2px solid  rgba(193, 106, 146, 1) ;
+    border-radius: 10px;
+    background-color: rgba(193, 106, 146, 1) ;
+    
 }
