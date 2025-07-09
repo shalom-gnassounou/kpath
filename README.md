@@ -12,6 +12,7 @@ Kpath est un site web interactif destiné à faire découvrir la K-pop et la K-c
 - **Contenu dynamique** avec carousel Bootstrap
 - **Scroll automatique** vers les articles affichés
 - Responsive design (en cours d'amélioration)
+- API utilisée pour la page k-drama
 
 ---
 
@@ -26,7 +27,7 @@ Kpath est un site web interactif destiné à faire découvrir la K-pop et la K-c
 
 ## 🚧 Prochaines améliorations
 
-- Ajout de contenu K-drama et K-food  
+- Ajout de contenu  K-food  
 - Accessibilité améliorée
 
 ---
