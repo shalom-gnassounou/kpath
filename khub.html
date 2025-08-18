@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="stylesheet" href="asset/css/khub.css" />
+    <link rel="stylesheet" href="asset/css/kpopstyle.css">
+    <title>khub</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img id="logo" src="asset/img/logo-kpath.PNG" alt="logo" />
+        <div class="burger" id="burger">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </div>
+        <ul class="navburger" id="navburger">
+          <li><a href="index.html">Acceuil</a></li>
+          <li><a href="kpop.html">Kpop</a></li>
+          <li><a href="kdrama.html">K-Drama</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h3>Welcome back: nom de l'utilisateur</h3>
+        <img
+          src="asset/img/page-img.jpg"
+          alt="representation de drapeaux coréen"
+          id="intro-img"
+        />
+      </section>
+      <h4>Vous avez une préférence pour:</h4>
+      <section class="pref"> 
+        <div >
+          <button class="favBut" onclick="showIntro('kdrama')"> les K-Drama</button>
+          <button  class="favBut"onclick="showIntro('kpop')"> la K-Pop</button>
+        </div>
+
+        <div id="intro-text" class="hidden"></div>
+      </section>
+    </main>
+
+    <footer id="socials">
+      <p>Suivez-nous pour plus de contenu K</p>
+
+      <img src="asset/img/facebook.png" alt="facebook" />
+      <img src="asset/img/instagram.png" alt="instagram" />
+      <img src="asset/img/twitter.png" alt="twitter" />
+    </footer>
+    <script src="asset/js/khub.js"></script>
+  </body>
+</html>
