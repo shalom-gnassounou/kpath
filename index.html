@@ -1,61 +1,156 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="asset/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/css/bootstrap.css" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    
     <title>Kpath HomePage</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-        <img  id="logo" src="asset/img/logo-kpath.PNG" alt="logo">
-        <div class="burger" id="burger">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-</svg>
+      <nav>
+        <img id="logo" src="asset/img/logo-kpath.PNG" alt="logo" />
+        <div class="burger" id="burger" role="button" tabindex="0" aria-controls="navburger" aria-expanded="false">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
         </div>
-        <ul class="navbar navburger" id="navburger">
-            <li><a href="index.html">Acceuil</a></li>
-            <li><a href="kpop.html">Kpop</a></li>
-             <li><a href="kdrama.html">K-Drama</a></li>
-            <li><a href="contact.html">Contact</a></li>
+        <ul class="navlist navburger" id="navburger">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="kpop.html">Kpop</a></li>
+          <li><a href="kdrama.html">K-Drama</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <button
+              type="button"
+              class="btn btn-outline-primary btn-sm"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              S'identifier
+            </button>
+          </li>
         </ul>
-        </nav>
-            
-         <img id="border-img"   src="asset/img/acceuil-img.jpg" alt="rue de seoul">
-           
-         
+      </nav>
+
+      <img id="border-img" src="asset/img/acceuil-img.jpg" alt="rue de seoul" />
     </header>
+    <section id="login">
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                S'identifier
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form method="post" action="login.php">
+                <div class="mb-3">
+                  <label for="Email" class="form-label"
+                    >Email:*</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    aria-describedby="emailHelp"
+                    name="email"
+                  /> 
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label"
+                    >Mot de Passe:*</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="pwd"
+                    name="pwd"
+                  />
+                </div>
+                <button type="login" class="btn btn-primary"> Se connecter</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <p><a href="register.php">Pas encore inscrit ?</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="news">
-        <h2>Découvrez nos derniers articles !</h2>
-    <div id="news-article">
-     <article class="card">
-        <img id="illustration-article"  src="asset/img/Article-img.jpg" alt="img-article">
-        <h4 class="card-content">La 5 ème géneration est là !</h4>
-        <p class="card-content"> La cinquième génération de la K-pop a émergé vers 2023, marquant une nouvelle ère d'innovation musicale et visuelle. Portée par des groupes comme NewJeans, RIIZE ou Zerobaseone, elle se distingue par une forte influence des réseaux sociaux et une esthétique rafraîchissante.</p>
+      <h2>Découvrez nos derniers articles !</h2>
+      <div id="news-article">
+        <article class="card">
+          <img
+            id="illustration-article"
+            src="asset/img/Article-img.jpg"
+            alt="img-article"
+          />
+          <h4 class="card-content">La 5 ème géneration est là !</h4>
+          <p class="card-content">
+            La cinquième génération de la K-pop a émergé vers 2023, marquant une
+            nouvelle ère d'innovation musicale et visuelle. Portée par des
+            groupes comme NewJeans, RIIZE ou Zerobaseone, elle se distingue par
+            une forte influence des réseaux sociaux et une esthétique
+            rafraîchissante.
+          </p>
+        </article>
 
-     </article>    
-
-
-      <article class="card">
-        <img id="illustration-article"  src="asset/img/articlebis.jpg" alt="img-article">
-        <h4 class="card-content">Les OST de K-Drama en 2025 : quand la K-pop sublime l'émotion</h4>
-        <p class="card-content"> Les derniers OST de K-pop captivent avec des voix émouvantes et des mélodies poignantes. Des artistes comme Baekhyun, Heize ou AILEE apportent une profondeur unique aux dramas coréens récents. Ces chansons renforcent l'intensité des scènes et touchent le public au cœur. De plus en plus, les OST deviennent aussi populaires que les titres principaux des idols. </p>
-
-     </article> 
-     </div> 
-
+        <article class="card">
+          <img
+            id="illustration-article"
+            src="asset/img/articlebis.jpg"
+            alt="img-article"
+          />
+          <h4 class="card-content">
+            Les OST de K-Drama en 2025 : quand la K-pop sublime l'émotion
+          </h4>
+          <p class="card-content">
+            Les derniers OST de K-pop captivent avec des voix émouvantes et des
+            mélodies poignantes. Des artistes comme Baekhyun, Heize ou AILEE
+            apportent une profondeur unique aux dramas coréens récents. Ces
+            chansons renforcent l'intensité des scènes et touchent le public au
+            cœur. De plus en plus, les OST deviennent aussi populaires que les
+            titres principaux des idols.
+          </p>
+        </article>
+      </div>
     </section>
     <footer id="socials">
-        <p>Suivez-nous pour plus de contenu K</p>
-        
-         <img src="asset/img/facebook.png" alt="facebook">
-         <img src="asset/img/instagram.png" alt="instagram">
-         <img src="asset/img/twitter.png" alt="twitter">
-        
+      <p>Suivez-nous pour plus de contenu K</p>
 
+      <img src="asset/img/facebook.png" alt="facebook" />
+      <img src="asset/img/instagram.png" alt="instagram" />
+      <img src="asset/img/twitter.png" alt="twitter" />
     </footer>
     <script src="asset/js/home.js"></script>
-</body>
+    <script src="asset/js/bootstrap.js"></script>
+  </body>
 </html>

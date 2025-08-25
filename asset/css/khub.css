@@ -32,3 +32,19 @@
   opacity: 1;
 }
 
+#sep {
+    margin-bottom: 2rem;
+    border-top: solid  ;
+    border-color: rgba(193, 106, 146, 1);
+}
+
+
+#add {
+    background-color: rgba(193, 106, 146, 1) ;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-color: white;
+    border-radius: 10px;
+}

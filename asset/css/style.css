@@ -7,7 +7,7 @@ nav {
     
 }
 
-.navbar {
+.navlist {
     display: flex;
     gap: 2rem;
     justify-content: space-evenly;
@@ -23,7 +23,7 @@ nav {
     
 
 }
- .navbar a {
+ .navlist a {
     text-decoration: none;
     color: white;
     font-style: italic;
@@ -54,7 +54,7 @@ nav {
     position: relative;
     z-index: 200;
 }
-.navburger.show {
+.navburger.nav-open {
     display: flex;
 }
 
@@ -142,6 +142,7 @@ footer img {
 }
 
 
+
 @media screen and (min-width:768px) {
     .burger {
         display: none;
@@ -182,7 +183,7 @@ footer img {
     margin-top: 3rem;
     margin-bottom: 1rem;
    }
-   .navburger.show {
+   .navburger.nav-open {
     display: flex;
    }
 
